@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
 </head>
+
 <body>
+    <input type="file" placeholder="이미지 파일 선택">
+    <br>
 
     <form action="/login.jsp">
         이름 : <input type="text" name="fname" maxlength="3"><br>
@@ -13,6 +17,38 @@
         <input type="submit" value="전송">
         <input type="reset" value="취소">
     </form>
+    <br>
+
+    <form action="/login.jsp">
+        이름 : <input type="text" name="fname" maxlength="3"><br>
+        성 : <input type="text" name="lname">
+        <input type="password value=" 전송">
+        <input type="reset" value="취소">
+    </form>
+    <br>
+
+    <select>
+        <option value="volvo">volvo</option>
+        <option value="opel">opel</option>
+        <option value="audi">audi</option>
+    </select>
+    <br>
+
+    <form>
+        <input type="radio" name="gender" value="man" checked>남성<br>
+        <input type="radio" name="gender" value="man">여성<br>
+    </form>
+    <br>
+
+    <form>
+        <input type="checkbox" name="gender" value="man">남성<br>
+        <input type="checkbox" name="gender" value="man">여성<br>
+        <input type="checkbox" name="gender" value="man">양성<br>
+        <input type="checkbox" name="gender" value="man">동성<br>
+        <input type="checkbox" name="gender" value="man">외계인<br>
+    </form>
+    <br>
     
 </body>
+
 </html>
